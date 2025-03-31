@@ -16,8 +16,11 @@ The **Foreign Object Debris (FOD) Detection Drone System** is an autonomous dron
 ## **Project Structure**
 ```
 ├── dji_tello_drone/      # Code and scripts for DJI Tello Drone
-│   ├── tello_control.py  # Controls DJI Tello for testing
-│   ├── tello_stream.py   # Video streaming from Tello
+│   ├── basic.py  # Controls DJI Tello for testing
+│   ├── detction.py   # Video streaming from Tello
+|   ├── detection.py # Vide accuracy
+|   ├── dronecontrol.py # Controlling autonomous drone
+|   ├── Voice_dec.py  # Giving voice when object is detected 
 │   
 │
 ├── ml_model/             # Machine learning model for FOD detection
@@ -27,9 +30,9 @@ The **Foreign Object Debris (FOD) Detection Drone System** is an autonomous dron
 │   
 │
 ├── raspi_autonomous_drone/  # Code for Raspberry Pi-based autonomous drone
-│   ├── flight_control.py    # Drone flight control script
-│   ├── object_detection.py  # Runs ML model on real-time drone feed
-│   ├── telemetry.py         # Collects and sends telemetry data
+│   ├── call_detct.py    # Drone flight control script
+│   ├── detection.py  # Runs ML model on real-time drone feed
+│ 
 │  
 │
 └── README.md             # Main project documentation
