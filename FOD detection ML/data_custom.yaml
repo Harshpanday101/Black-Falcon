@@ -1,6 +1,0 @@
-train: C:\Users\cnpan\Desktop\FOD\train
-val: C:\Users\cnpan\Desktop\FOD\val
-
-nc: 3
-
-names: ["nuts", "bolts", "screws"]
