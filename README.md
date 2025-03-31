@@ -70,7 +70,7 @@ The **Foreign Object Debris (FOD) Detection Drone System** is an autonomous dron
 ## **Contributors**
 - **Harsh Panday**
 - **Anjali Aggarwal**
-- - **Akash Lakhwan**
+- **Akash Lakhwan**
 
 
 
